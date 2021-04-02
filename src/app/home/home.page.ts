@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  Conexion()
+  {
+    alert('Funciona la conexion')
+  }
+
   constructor() {}
 
 }
